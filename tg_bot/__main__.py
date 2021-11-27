@@ -144,15 +144,15 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="𝙷𝙴𝙻𝙿",
                                                                        callback_data="help_back".format(bot.username)),
                                                                                    InlineKeyboardButton(text="𝙲𝙷𝙰𝙽𝙽𝙴𝙻",
-                                                                       url="t.me/M_STER_TECH")],
+                                                                       url="t.me/Jimi_Bots")],
                                                                                    [InlineKeyboardButton(text= "𝙳𝙴𝙿𝙻𝙾𝚈",
-                                                                       url="https://youtu.be/Bz8AUvN5bSo"),
+                                                                       url="t.me/jimibots_grp"),
                                                                                    InlineKeyboardButton(text="𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴",
-                                                                       url="https://github.com/PANDITHAN/Evil-Inside")
+                                                                       url="https://github.com/Jimicreator/Evil-Inside")
                                                                                  ]]))
 
     else:
-        update.effective_message.reply_text("Yuss, I am Already Online")
+        update.effective_message.reply_text("Yupp!, I am Already Online")
 
 
 def send_start(bot, update):
